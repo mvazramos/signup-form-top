@@ -6,3 +6,31 @@ html, body {
     overflow-x: hidden; 
   }
 
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.side-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./assets/background-planet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 100vh;
+}
+
+#astronaut{
+  width: 10rem;
+  height: auto;
+}
+
+.form-container{
+  background-color: rgba(13, 13, 13,0.95);
+  flex-grow:2;
+}
+
