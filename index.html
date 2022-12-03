@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Space Camp Sign-up</title>
+    <title>Space Travel Sign-up</title>
 </head>
+
 <body>
     <main>
-        <div class="side-hero"> 
-            <img id="astronaut" src="./assets/astro-icon.png" alt="This is an Astronaut">          
+
+        <div class="side-hero">
+            <div class="text-container">
+                <p>Let's go for a Space Walk!</p>
+                <img id="astronaut" src="./assets/astro-icon.png" alt="This is an Astronaut">
+            </div>
+
+            <div class="image-rights">
+                <p>PHOTO BY <a href="https://unsplash.com/photos/RmoWqDCqN2E">CASEY HORNER</a></p>
+            </div>
         </div>
-        <div class="form-container">
+
+        <div class="form-section">
+            <div class="right-text">
+                <h1>Wanna have the adventure of a
+                    lifetime?!
+                    <img src="https://cdn-icons-png.flaticon.com/512/2285/2285537.png" alt="rocket icon"
+                        style="padding:0px; margin-left:15px; width:32px; height:32px;">
+                </h1>
+                <h3>We promise to take you to the stars! But we ain't got no promises about bringing you back! &#127762;
+                </h3>
+            </div>
+            <div class="form-container">
+                <form action="/my-handling-form-page" method="post">
+
+                    <div class="row">
+                        <div>
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Michael">
+                        </div>
+
+                        <div>
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Collins">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="age">Age (years):</label>
+                            <input type="number" id="age" name="age" min="18" max="99" placeholder="90">
+                        </div>
+
+                        <div>
+                            <label for="weight">Weight (&#13199;):</label>
+                            <input type="number" id="weight" name="weight" min="50" max="100" placeholder="75">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="youremail@mail.com">
+                        </div>
+                        <div>
+                            <label for="phonenumber">Phone Number:</label>
+                            <input type="tel" id="phonenumber" name="phonenumber" placeholder="+351910000000">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="password">* Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <label for="repeatpassword">* Confirm Password:</label>
+                            <input type="password" id="repeatpassword" name="repeatpassword" required>
+                        </div>
+                    </div>
+
+                    <div class="row-button">
+                        <div class="signup-btn">
+                            <button type="submit">Sign-up</button>
+                            <p>Already have an account?</p>
+                            <p> <a href="#">Login</a></p>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
