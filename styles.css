@@ -169,3 +169,81 @@ form input {
   padding: 0.25rem 0.25rem;
   margin-top: 2.5vh;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    background-color: rgba(9, 9, 9, 0.85);
+    border-radius: 10px;
+    color: bisque;
+    font-family: NasaFont;
+    font-size: 20px;
+    text-align: center;
+    height: 7rem;
+    width: 45vw;
+    padding: 5px;
+    margin: 0;
+    top: 7.5vh;
+  }
+
+  .row-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 40vw;
+    left: 0.6rem;
+  }
+
+  .form-container {
+    width: 50vw;
+    background-color: rgba(81, 85, 85, 0.85);
+    padding: 1rem 2.8rem 1rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .form-section {
+    margin-bottom: 25px;
+  }
+
+  .row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 50%;
+    gap: 0.1rem;
+  }
+
+
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .signup-btn button {
+    font-size: 0.6rem;
+  }
+}
